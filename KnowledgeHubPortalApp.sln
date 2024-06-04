@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeHubPortal.Domain", "KnowledgeHubPortal.Domain\KnowledgeHubPortal.Domain.csproj", "{522F4F06-0690-46B3-ADC0-95DB6F7CBA62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{E4110F99-FCC6-4B96-8EBF-D5EE3BCB3C55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{63B8C6F0-9D32-4C92-9B6A-7218CD2D450B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API Layer", "API Layer", "{EA804943-B70A-434C-81F5-7904FFA9C84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeHubPortal.Data", "KnowledgeHubPortal.Data\KnowledgeHubPortal.Data.csproj", "{A0A1637D-E7EF-49D0-A5F4-A3084DF08CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeHubPortal.API", "KnowledgeHubPortal.API\KnowledgeHubPortal.API.csproj", "{3308DA11-A4C9-4F36-AD9D-092BC00F86D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{522F4F06-0690-46B3-ADC0-95DB6F7CBA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522F4F06-0690-46B3-ADC0-95DB6F7CBA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522F4F06-0690-46B3-ADC0-95DB6F7CBA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522F4F06-0690-46B3-ADC0-95DB6F7CBA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A1637D-E7EF-49D0-A5F4-A3084DF08CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A1637D-E7EF-49D0-A5F4-A3084DF08CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A1637D-E7EF-49D0-A5F4-A3084DF08CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A1637D-E7EF-49D0-A5F4-A3084DF08CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3308DA11-A4C9-4F36-AD9D-092BC00F86D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3308DA11-A4C9-4F36-AD9D-092BC00F86D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3308DA11-A4C9-4F36-AD9D-092BC00F86D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3308DA11-A4C9-4F36-AD9D-092BC00F86D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{522F4F06-0690-46B3-ADC0-95DB6F7CBA62} = {E4110F99-FCC6-4B96-8EBF-D5EE3BCB3C55}
+		{A0A1637D-E7EF-49D0-A5F4-A3084DF08CF2} = {63B8C6F0-9D32-4C92-9B6A-7218CD2D450B}
+		{3308DA11-A4C9-4F36-AD9D-092BC00F86D6} = {EA804943-B70A-434C-81F5-7904FFA9C84A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02973F13-2712-4E5F-BFDF-8B3006594892}
+	EndGlobalSection
+EndGlobal
